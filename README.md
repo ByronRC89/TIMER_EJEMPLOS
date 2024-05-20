@@ -1,9 +1,11 @@
 # TIMER_EJEMPLOS
 
 Este código se configura y utiliza varios temporizadores en un microcontrolador STM32L053 para realizar operaciones de encendido y apagado de varios pines GPIO conectados a un led. A continuación, se explica cada parte del código en detalle:
+
 ![image](https://github.com/ByronRC89/TIMER_EJEMPLOS/assets/159856194/5476f6e7-4ed2-4a57-aaea-4f024c8a3b06)
 
 Se declaran las funciones que configurarán los temporizadores 2, 6 y 21.
+
 ![image](https://github.com/ByronRC89/TIMER_EJEMPLOS/assets/159856194/9d6438cc-6297-4905-adef-c6df0a3e6539)
 
 Configuración del Sistema de Reloj
