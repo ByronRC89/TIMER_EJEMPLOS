@@ -22,10 +22,12 @@ evaluacion donde se encuentran los timer 2, 6, 21.
 ![image](https://github.com/ByronRC89/TIMER_EJEMPLOS/assets/159856194/ca286e15-6205-43f6-9df2-1df2098fc376)
 
 buscamos sus configuraciones en el manual de referencia en los temas siguintes 
+
 ![image](https://github.com/ByronRC89/TIMER_EJEMPLOS/assets/159856194/07e6784d-545c-499f-9f21-13acd046f743)
 
 esto se utiliza para poder encontrar los registros que deben ser habilitados para poder encender y poner en funcionamiento cada timer a cada tasa de propagacion segun sea la necesidad.
 por ejemplo: la configuracion del TIM2, con un valor de ARR estimado para 1 segundo a 16 bits con una frecuencia de 16Mhz
+
 ![image](https://github.com/ByronRC89/TIMER_EJEMPLOS/assets/159856194/68a51485-0d98-46f5-bbbd-d1875d36f4d7)
 
 Timer 2: Si el flag de actualización está activado, se limpia el flag, se realiza un toggle en el pin PC8 y se resetea.
@@ -33,6 +35,7 @@ Timer 6: Si el flag de actualización está activado, se limpia el flag, se real
 Timer 21: Si el flag de actualización está activado, se limpia el flag, se realiza un toggle en el pin PC5 y se resetea.
 
 a continuacion se muestra la logica de los cilos ```if()``` , los cuales tienen las condicones de encendido y apagado 
+
 ![image](https://github.com/ByronRC89/TIMER_EJEMPLOS/assets/159856194/80290b37-e094-4bbc-8080-cd67a384f180)
 
 a continuacion un video con una descripcion breve del funcionamiento, codigo y los registros.
